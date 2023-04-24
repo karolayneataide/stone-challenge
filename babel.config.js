@@ -12,6 +12,8 @@ module.exports = function (api) {
             '@molecules': './src/components/molecules/index.ts',
             '@organisms': './src/components/organisms/index.ts',
             '@screens': './src/screens/index.ts',
+            '@theme': './src/theme/index.ts',
+            '@utils': './src/utils/index.ts',
           },
         },
       ],
