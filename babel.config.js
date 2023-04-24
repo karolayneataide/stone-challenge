@@ -11,6 +11,7 @@ module.exports = function (api) {
             '@atoms': './src/components/atoms/index.ts',
             '@molecules': './src/components/molecules/index.ts',
             '@organisms': './src/components/organisms/index.ts',
+            '@screens': './src/screens/index.ts',
           },
         },
       ],
