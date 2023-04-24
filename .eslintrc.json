@@ -1,0 +1,12 @@
+{
+    "extends": [
+      "plugin:react/recommended",
+      "plugin:prettier/recommended",
+      "@react-native-community"
+    ],
+    "plugins": ["prettier"],
+    "rules": {
+      "prettier/prettier": ["error"],
+      "react/prop-types": "off"
+    }
+  }
