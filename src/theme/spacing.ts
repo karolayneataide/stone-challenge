@@ -11,5 +11,5 @@ const spacings = {
 } as const;
 
 export default {
-  spacings,
+  ...spacings,
 };
