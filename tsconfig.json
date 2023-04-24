@@ -1,6 +1,13 @@
 {
   "extends": "expo/tsconfig.base",
   "compilerOptions": {
-    "strict": true
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "@ions": ["src/components/ions/index.ts"],
+      "@atoms": ["src/components/atoms/index.ts"],
+      "@molecules": ["src/components/molecules/index.ts"],
+      "@organisms": ["src/components/organisms/index.ts"],
+    }
   }
 }
