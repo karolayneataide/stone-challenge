@@ -1,6 +1,6 @@
 import React from 'react';
-import { CartProvider } from 'src/providers/CartProvider/CartProvider';
 import { ThemeProvider } from 'styled-components/native';
+import { CartProvider } from './src/providers/CartProvider/CartProvider';
 import { NavigationProvider } from './src/routes';
 import theme from './src/theme';
 
