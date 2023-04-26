@@ -1,9 +1,15 @@
+import theme from '@theme';
 import React from 'react';
-import * as S from './Loading.styles';
+import { ActivityIndicator } from 'react-native';
 
 const Loading = () => {
   return (
-    <S.Loading testID="loading" accessibilityRole="progressbar" size="large" />
+    <ActivityIndicator
+      testID="loading"
+      accessibilityRole="progressbar"
+      size="large"
+      color={theme.palette.primary[300]}
+    />
   );
 };
 
