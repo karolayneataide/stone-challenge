@@ -5,7 +5,7 @@
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "android": "expo start --android",
-    "api": "json-server --watch api.json",
+    "api": "ngrok http 3000 & json-server --watch api.json --port 3000",
     "ios": "expo start --ios",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
@@ -43,6 +43,7 @@
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react": "^7.32.2",
     "json-server": "^0.17.3",
+    "ngrok": "^4.3.3",
     "prettier": "^2.8.8",
     "typescript": "^4.9.4"
   }
