@@ -1,6 +1,7 @@
 const common = {
   black: '#000000',
   white: '#FFFFFF',
+  transparent: 'transparent',
 } as const;
 
 const primary = {
