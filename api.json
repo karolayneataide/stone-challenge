@@ -19,7 +19,7 @@
           }
         },
         {
-          "id": 2,
+          "id": 3,
           "name": "Tomate",
           "price": 11.99,
           "image": {
@@ -28,7 +28,7 @@
           }
         },
         {
-          "id": 3,
+          "id": 4,
           "name": "Limão",
           "price": 7.99,
           "image": {
@@ -37,7 +37,7 @@
           }
         },
         {
-          "id": 4,
+          "id": 5,
           "name": "Uva",
           "price": 15.99,
           "image": {
@@ -46,7 +46,7 @@
           }
         },
         {
-          "id": 5,
+          "id": 6,
           "name": "Cenoura",
           "price": 9.99,
           "image": {
