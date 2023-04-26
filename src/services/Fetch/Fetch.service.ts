@@ -1,9 +1,9 @@
+import { API_URL } from '@env';
 import axios, { AxiosResponse } from 'axios';
-import Constants from 'expo-constants';
 import { IDelete, IGet, IPath, IPost, IPut } from './Fetch.types';
 
 export const axiosInstance = axios.create({
-  baseURL: Constants.manifest?.extra?.API_ENDPOINT,
+  baseURL: API_URL,
 });
 
 const fetchService = {
