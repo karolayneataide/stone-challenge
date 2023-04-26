@@ -6,8 +6,9 @@ const Typography = ({
   children,
   variant = 'body1',
   color = 'gray.700',
+  textAlign = 'justify',
 }: TypographyProps) => (
-  <S.Typography variant={variant} color={color}>
+  <S.Typography variant={variant} color={color} textAlign={textAlign}>
     {children}
   </S.Typography>
 );
