@@ -1,3 +1,4 @@
+import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { ThemeProvider } from 'styled-components/native';
 import { CartProvider } from './src/providers/CartProvider/CartProvider';
@@ -8,6 +9,7 @@ export default function App() {
   return (
     <ThemeProvider theme={theme}>
       <CartProvider>
+        <StatusBar style="light" />
         <NavigationProvider />
       </CartProvider>
     </ThemeProvider>
