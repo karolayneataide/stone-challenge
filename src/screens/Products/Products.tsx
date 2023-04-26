@@ -1,12 +1,29 @@
-import { Container } from '@ions';
+import { ErrorBoundary } from '@atoms';
+import { useProducts } from '@hooks';
+import { Container, Loading } from '@ions';
+import { ProductList } from '@organisms';
 import React from 'react';
-import { Text } from 'react-native';
+import * as S from './Products.styles';
 
 const Products = () => {
+  const { data: products, loading, error } = useProducts();
+
+  if (loading) {
+    return (
+      <Container>
+        <Loading />
+      </Container>
+    );
+  }
+
+  if (error) {
+    return <ErrorBoundary />;
+  }
+
   return (
-    <Container>
-      <Text>Tela de listagem de produtos</Text>
-    </Container>
+    <S.Wrapper>
+      <ProductList products={products!} />
+    </S.Wrapper>
   );
 };
 
