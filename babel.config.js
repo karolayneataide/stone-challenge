@@ -15,6 +15,7 @@ module.exports = function (api) {
             '@hooks': './src/hooks/index.ts',
             '@providers': './src/providers/index.ts',
             '@screens': './src/screens/index.ts',
+            '@services': './src/services/index.ts',
             '@theme': './src/theme/index.ts',
             '@utils': './src/utils/index.ts',
           },
