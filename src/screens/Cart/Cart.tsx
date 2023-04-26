@@ -1,12 +1,20 @@
-import { Container } from '@ions';
+import { useCart } from '@hooks';
+import { CartRow } from '@molecules';
 import React from 'react';
-import { Text } from 'react-native';
+import { FlatList } from 'react-native';
+import * as S from './Cart.styles';
 
 const Cart = () => {
+  const { cart } = useCart();
+
   return (
-    <Container>
-      <Text>Tela do carrinho</Text>
-    </Container>
+    <S.Wrapper>
+      <FlatList
+        data={cart}
+        renderItem={({ item }) => <CartRow {...item} />}
+        keyExtractor={(item) => item.id.toString()}
+      />
+    </S.Wrapper>
   );
 };
 
