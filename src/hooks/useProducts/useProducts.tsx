@@ -8,9 +8,13 @@ const useProducts = () => {
   const [data, setData] = useState<Product[]>();
 
   useEffect(() => {
-    FetchService.get<Product[]>({ url: '/products ' })
+    setError(false);
+    setLoading(true);
+    setData([]);
+
+    FetchService.get<Product[]>({ url: '/products' })
       .then((response) => setData(response.data))
-      .catch(() => setError(true))
+      .catch((error) => setError(true))
       .finally(() => setLoading(false));
   }, []);
 
