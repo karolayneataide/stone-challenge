@@ -5,6 +5,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 import { Cart, Products } from '@screens';
 import theme from '@theme';
 import React from 'react';
+import { Platform } from 'react-native';
 
 const Stack = createStackNavigator();
 
@@ -20,7 +21,7 @@ export const NavigationProvider = () => {
           headerTintColor: theme.palette.common.white,
           headerStyle: {
             backgroundColor: theme.palette.primary[400],
-            height: 100,
+            height: Platform.OS === 'ios' ? 100 : 118,
           },
         })}
       >
