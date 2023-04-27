@@ -1,4 +1,4 @@
-import { ErrorBoundary } from '@atoms';
+import { Empty, ErrorBoundary } from '@atoms';
 import { useProducts } from '@hooks';
 import { Container, Loading } from '@ions';
 import { ProductList } from '@organisms';
@@ -18,6 +18,10 @@ const Products = () => {
 
   if (error) {
     return <ErrorBoundary />;
+  }
+
+  if (!products?.length) {
+    return <Empty message="Nenhum produto cadastrado" />;
   }
 
   return (
