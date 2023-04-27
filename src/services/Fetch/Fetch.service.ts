@@ -4,6 +4,9 @@ import { IDelete, IGet, IPath, IPost, IPut } from './Fetch.types';
 
 export const axiosInstance = axios.create({
   baseURL: API_URL,
+  headers: {
+    'User-Agent': 'react-native',
+  },
 });
 
 const fetchService = {
