@@ -10,13 +10,9 @@ export const Button = styled.TouchableOpacity<ButtonProps>`
       ? theme.palette.primary[300]
       : theme.palette.common.transparent};
 
-  ${({ theme, variant }) =>
-    variant === 'outlined' &&
-    `
-    border-color: ${theme.palette.primary[300]};
-    border-width: 1px;
-    border-style: solid;
-  `}
+  border-color: ${({ theme }) => theme.palette.primary[300]};
+  border-width: 1px;
+  border-style: solid;
 
   ${({ fullWidth }) =>
     fullWidth &&
