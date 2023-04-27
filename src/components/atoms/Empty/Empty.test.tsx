@@ -1,10 +1,12 @@
 import { renderWithTheme } from '@utils';
 import React from 'react';
-import ErrorBoundary from './Empty';
+import Empty from './Empty';
 
 describe('ErrorBoundary', () => {
   it('should render the error message', () => {
-    const { getByText } = renderWithTheme(<ErrorBoundary />);
+    const { getByText } = renderWithTheme(
+      <Empty message="Nenhum item no carrinho" />
+    );
 
     expect(getByText('Nenhum item no carrinho')).toBeDefined();
   });
