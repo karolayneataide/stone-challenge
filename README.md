@@ -2,7 +2,7 @@
 
 Este é um projeto criado como parte de um desafio técnico para a empresa Stone Ton.
 
-O objetivo deste projeto é desenvolver um protótipo em React Native, nele foi utilizada a paleta de cores da Stone Ton como inspiração, ainda, foram desenvolvidas as funcionalidades de listagem de produtos selecionado, adicionar e remover um produto no carrinho, e também navegar entre a tela de produtos e meus produtos, também foi acrescentada a tela de erros. uma tela agradável e funcional, conforme mostrado na foto abaixo:
+O objetivo deste projeto é desenvolver um protótipo em React Native, nele foi utilizada a paleta de cores da Stone Ton como inspiração, ainda, foram desenvolvidas as funcionalidades de listagem de produtos selecionado, adicionar e remover um produto no carrinho, e também navegar entre a tela de produtos e meus produtos. Na tela de produtos aparecem quatro cenários: a de produtos, de loading, de nenhum produto cadastrado e de erro. Na tela de meu carrinho, aparecem dois cenários: a de itens adicionados no carrinho e nenhum item adicionado. As imagens estão abaixo:
 
 ## Listagem de Produtos
 <div style="display: flex; flex-direction: row">
