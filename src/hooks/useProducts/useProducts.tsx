@@ -14,7 +14,7 @@ const useProducts = () => {
 
     FetchService.get<Product[]>({ url: '/products' })
       .then((response) => setData(response.data))
-      .catch((error) => setError(true))
+      .catch(() => setError(true))
       .finally(() => setLoading(false));
   }, []);
 
