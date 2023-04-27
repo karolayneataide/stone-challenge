@@ -110,6 +110,7 @@ Isso iniciará o projeto em seu terminal. Para executar o projeto em um disposit
 - [Prettier](https://prettier.io)
 - [React Navigation](https://reactnavigation.org)
 - [React Context](https://legacy.reactjs.org/docs/context.html)
+- [Json Server](https://www.npmjs.com/package/json-server)
 - [Axios](https://axios-http.com/ptbr/docs/intro)
 - [Jest](https://jestjs.io/pt-BR/)
 - [Testing-library](https://testing-library.com/)
