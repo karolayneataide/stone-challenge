@@ -5,19 +5,19 @@ Este é um projeto criado como parte de um desafio técnico para a empresa Stone
 O objetivo deste projeto é desenvolver um protótipo em React Native, nele foi utilizada a paleta de cores da Stone Ton como inspiração, ainda, foram desenvolvidas as funcionalidades de listagem de produtos selecionado, adicionar e remover um produto no carrinho, e também navegar entre a tela de produtos e meus produtos, também foi acrescentada a tela de erros. uma tela agradável e funcional, conforme mostrado na foto abaixo:
 
 ## Listagem de Produtos
-<img src="https://user-images.githubusercontent.com/80495195/234759581-1c930e3f-fc00-4d58-891e-2efe1f68e3d6.jpeg" alt="produtos" style="width: 20%; display: inline-block; margin-right: 5%">
+<img src="https://user-images.githubusercontent.com/80495195/234759581-1c930e3f-fc00-4d58-891e-2efe1f68e3d6.jpeg" alt="produtos" style="width: 45%; display: inline-block; margin-right: 5%">
 
 #### Loading ao carregar Listagem de Produtos
 
-<img src="https://user-images.githubusercontent.com/80495195/234760098-cc187089-5ed3-478a-8566-f4a49ef309ea.jpeg" alt="loading" style="width: 20%; display: inline-block; margin-right: 5%">
+<img src="https://user-images.githubusercontent.com/80495195/234760098-cc187089-5ed3-478a-8566-f4a49ef309ea.jpeg" alt="loading" style="width: 45%; display: inline-block;">
 
 #### Não há produtos cadastrados
 
-<img src="https://user-images.githubusercontent.com/80495195/234769342-cd94cd3e-aa34-4b5d-931e-53e9f7765690.jpeg" alt="product empty" style="width: 20%; display: inline-block; margin-right: 5%">
+<img src="https://user-images.githubusercontent.com/80495195/234769342-cd94cd3e-aa34-4b5d-931e-53e9f7765690.jpeg" alt="product empty" style="width: 45%; display: inline-block; margin-right: 5%">
 
 #### Erro ao carregar Listagem de Produtos
 
-<img src="https://user-images.githubusercontent.com/80495195/234769454-829f4526-6320-4f80-8396-dd97d0c2ef57.jpeg" alt="product error" style="width: 20%; display: inline-block; margin-right: 5%">
+<img src="https://user-images.githubusercontent.com/80495195/234769454-829f4526-6320-4f80-8396-dd97d0c2ef57.jpeg" alt="product error" style="width: 45%; display: inline-block;">
 
 ## Meu Carrinho
 ![carrRow](https://user-images.githubusercontent.com/80495195/234759685-6635102c-ea9a-4f29-bbcd-cf15d896aa81.jpeg)
