@@ -4,7 +4,7 @@ Este é um projeto criado como parte de um desafio técnico para a empresa Stone
 
 O objetivo deste projeto é desenvolver um protótipo em React Native, nele foi utilizada a paleta de cores da Stone Ton como inspiração, ainda, foram desenvolvidas as funcionalidades de listagem de produtos selecionado, adicionar e remover um produto no carrinho, e também navegar entre a tela de produtos e meus produtos, também foi acrescentada a tela de erros. uma tela agradável e funcional, conforme mostrado na foto abaixo:
 
-### Listagem de Produtos
+## Listagem de Produtos
 ![produtos](https://user-images.githubusercontent.com/80495195/234759581-1c930e3f-fc00-4d58-891e-2efe1f68e3d6.jpeg)
 
 #### Loading ao carregar Listagem de Produtos
@@ -16,7 +16,7 @@ O objetivo deste projeto é desenvolver um protótipo em React Native, nele foi 
 #### Erro ao carregar Listagem de Produtos
 ![product error](https://user-images.githubusercontent.com/80495195/234769454-829f4526-6320-4f80-8396-dd97d0c2ef57.jpeg)
 
-### Meu Carrinho
+## Meu Carrinho
 ![carrRow](https://user-images.githubusercontent.com/80495195/234759685-6635102c-ea9a-4f29-bbcd-cf15d896aa81.jpeg)
 
 #### Tela de Carrinho Vazio
