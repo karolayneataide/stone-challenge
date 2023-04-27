@@ -17,10 +17,10 @@ export const NavigationProvider = () => {
           headerRight: ({ tintColor }) => (
             <CartButton navigation={navigation} tintColor={tintColor} />
           ),
-          headerShadowVisible: false,
           headerTintColor: theme.palette.common.white,
           headerStyle: {
             backgroundColor: theme.palette.primary[400],
+            height: 100,
           },
         })}
       >
