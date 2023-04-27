@@ -7,8 +7,14 @@ const Typography = ({
   variant = 'body1',
   color = 'gray.700',
   textAlign = 'justify',
+  fontWeight = 'medium',
 }: TypographyProps) => (
-  <S.Typography variant={variant} color={color} textAlign={textAlign}>
+  <S.Typography
+    variant={variant}
+    color={color}
+    textAlign={textAlign}
+    fontWeight={fontWeight}
+  >
     {children}
   </S.Typography>
 );

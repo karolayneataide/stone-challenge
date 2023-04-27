@@ -15,4 +15,5 @@ export interface TypographyProps {
   variant?: keyof typeof theme.typography.sizes;
   color?: Color;
   textAlign?: 'auto' | 'center' | 'justify' | 'left' | 'right';
+  fontWeight?: 'regular' | 'medium' | 'bold';
 }
