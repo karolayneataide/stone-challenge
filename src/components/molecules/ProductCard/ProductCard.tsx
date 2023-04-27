@@ -4,6 +4,7 @@ import { Typography } from '@ions';
 import { Product } from '@types';
 import React, { useMemo } from 'react';
 import * as S from './ProductCard.styles';
+import { Currency } from '@services';
 
 const ProductCard = (product: Product) => {
   const { addProductToCart, removeProductFromCart, hasProductInCart } =
@@ -36,7 +37,7 @@ const ProductCard = (product: Product) => {
         <S.DescriptionWrapper>
           <Typography>{product.name}</Typography>
           <Typography variant="body2" color="gray.500">
-            {product.price}
+            {Currency(product.price)}
           </Typography>
         </S.DescriptionWrapper>
         <S.ActionWrapper>

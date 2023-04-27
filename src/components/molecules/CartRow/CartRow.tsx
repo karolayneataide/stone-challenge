@@ -4,6 +4,7 @@ import { Typography } from '@ions';
 import { Product } from '@types';
 import React from 'react';
 import * as S from './CartRow.styles';
+import { Currency } from '@services';
 
 const CartRow = (product: Product) => {
   const { removeProductFromCart } = useCart();
@@ -22,7 +23,7 @@ const CartRow = (product: Product) => {
         <S.DescriptionWrapper>
           <Typography variant="headline5">{product.name}</Typography>
           <Typography variant="body2" color="gray.500">
-            {product.price}
+            {Currency(product.price)}
           </Typography>
         </S.DescriptionWrapper>
         <S.ActionWrapper>
