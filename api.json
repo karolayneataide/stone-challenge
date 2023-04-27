@@ -1,58 +1,58 @@
 {
-    "products": [
-        {
-          "id": 1,
-          "name": "Kiwi",
-          "price": 29.99,
-          "image": {
-            "url": "https://s.cornershopapp.com/product-images/5100718.jpg?versionId=_YdzUMfnLydl.lnxPLSDaA2BGdkZ4zc5",
-            "alt": "Kiwi green"
-          }
-        },
-        {
-          "id": 2,
-          "name": "Maça",
-          "price": 15.99,
-          "image": {
-            "url": "https://s.cornershopapp.com/product-images/4572992.jpg?versionId=MhgvhaVolMsol4JQyiMkN1fZCLjJ9Zdd",
-            "alt": "Maça gala"
-          }
-        },
-        {
-          "id": 3,
-          "name": "Tomate",
-          "price": 11.99,
-          "image": {
-            "url": "https://s.cornershopapp.com/product-images/4572975.jpg?versionId=kjKGZLPjCz8S0dgz3RitTX.vKZIzXU_k",
-            "alt": "Tomate italiano"
-          }
-        },
-        {
-          "id": 4,
-          "name": "Limão",
-          "price": 7.99,
-          "image": {
-            "url": "https://s.cornershopapp.com/product-images/4746234.jpg?versionId=np.xHBh_nO3WcbRr3i.RJQJVDve6eahn",
-            "alt": "Limão Tahiti"
-          }
-        },
-        {
-          "id": 5,
-          "name": "Uva",
-          "price": 15.99,
-          "image": {
-            "url": "https://s.cornershopapp.com/product-images/4572980.png?versionId=vdZJsaxmUPIiN7MVb_oSnc3YCSn9DNX.",
-            "alt": "Uva Verde"
-          }
-        },
-        {
-          "id": 6,
-          "name": "Cenoura",
-          "price": 9.99,
-          "image": {
-            "url": "https://s.cornershopapp.com/product-images/4652534.jpg?versionId=ZdSH1X_D2EX1wbv0GVB1j3H_E3gXBlpl",
-            "alt": "Cenoura"
-          }
-        }
-      ]
+  "products": [
+    {
+      "id": 1,
+      "name": "Kiwi",
+      "price": 29.99,
+      "image": {
+        "url": "https://s.cornershopapp.com/product-images/5100718.jpg?versionId=_YdzUMfnLydl.lnxPLSDaA2BGdkZ4zc5",
+        "alt": "Kiwi green"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Maça",
+      "price": 15.99,
+      "image": {
+        "url": "https://s.cornershopapp.com/product-images/4572992.jpg?versionId=MhgvhaVolMsol4JQyiMkN1fZCLjJ9Zdd",
+        "alt": "Maça gala"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Tomate",
+      "price": 11.99,
+      "image": {
+        "url": "https://s.cornershopapp.com/product-images/4572975.jpg?versionId=kjKGZLPjCz8S0dgz3RitTX.vKZIzXU_k",
+        "alt": "Tomate italiano"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Limão",
+      "price": 7.99,
+      "image": {
+        "url": "https://s.cornershopapp.com/product-images/4746234.jpg?versionId=np.xHBh_nO3WcbRr3i.RJQJVDve6eahn",
+        "alt": "Limão Tahiti"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Uva",
+      "price": 15.99,
+      "image": {
+        "url": "https://s.cornershopapp.com/product-images/4572980.png?versionId=vdZJsaxmUPIiN7MVb_oSnc3YCSn9DNX.",
+        "alt": "Uva Verde"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Cenoura",
+      "price": 9.99,
+      "image": {
+        "url": "https://s.cornershopapp.com/product-images/4652534.jpg?versionId=ZdSH1X_D2EX1wbv0GVB1j3H_E3gXBlpl",
+        "alt": "Cenoura"
+      }
+    }
+  ]
 }
